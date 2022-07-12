@@ -10,6 +10,9 @@
     --baseYellow: rgb(255, 255, 47);
 }
 
+body{
+    position: relative;
+}
 
 
 
@@ -1730,6 +1733,82 @@
     background-color: #e1306c;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************** chat box*******************************************/
+.chatBoxWrapper{
+    position: fixed;
+    height:50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    z-index: 10000;
+    border-radius: 10px;
+    bottom: 5%;
+    right: 30px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    cursor: pointer;
+}
+
+.chatBoxWrapper::after{
+    content: '';
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    z-index: -500;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+    transform: translate(-50%,50%) rotate(45deg);
+}
+
+.chatBoxWrapper svg{
+    width: 20px;
+    height: 20px;
+    color: var(--baseColor);
+}
+
+.chatBox{
+    opacity: 0;
+    content: '';
+    position: absolute;
+    height: 0vh;
+    width: 20vw;
+    background-color: rgb(243, 243, 144);
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.chatBoxWrapper:hover .chatBox{
+    height: 60vh;
+    opacity: 1;
+}
+
+
+
 
 
 
