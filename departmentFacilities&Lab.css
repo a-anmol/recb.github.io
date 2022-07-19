@@ -1,0 +1,172 @@
+/*******************************************department heading*********************************************/
+.departmentHeading {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.departmentHeading h1 {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    font-size: 35px;
+    text-shadow: 0 2px 10px rgb(0, 0, 0, 0.4);
+}
+
+.departmentUnderline {
+    height: 2px;
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************facilities box 1**********************************************/
+.facilitiesWrapper {
+    background-color: bisque;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.facilitiesInner {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+}
+
+.facilitiesHeading {
+    color: rgb(0, 210, 110);
+    margin-top: 20px;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(0, 210, 110);
+    border-radius: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+}
+
+h5{
+    margin-top: 10px;
+}
+
+.facilitiesText {
+    font-size: 20px;
+    margin: 15px 0;
+    position: relative;
+    left: 30px;
+    padding-right: 30px;
+}
+
+.facilitiesText::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 210, 110);
+    border-radius: 50%;
+    left: -25px;
+    top: 4px;
+}
+
+
+.aboutOpen {
+    left: 10px;
+    top: -25px;
+    width: 80px;
+}
+
+.aboutClose {
+    right: 10px;
+    bottom: -25px;
+    width: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***********************************************facilities box 2*****************************************/
+.facilitiesBoxWrapper {
+    background-color: aliceblue;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.facilitiesBoxInner {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.facilitiesBoxHeading {
+    color: rgb(0, 210, 110);
+    margin-top: 20px;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(0, 210, 110);
+    border-radius: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+
+}
+
+h6{
+    margin-top: 10px;
+}
+
+.facilitiesBoxText {
+    font-size: 20px;
+    margin: 20px 0;
+    position: relative;
+    left: 30px;
+    padding-right: 20px;
+}
+
+.facilitiesBoxText::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 210, 110);
+    border-radius: 50%;
+    left: -25px;
+    top: 4px;
+}

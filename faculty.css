@@ -73,11 +73,11 @@
 
 
 /****************************************cards section*******************************************************/
-.facultyInfoCards{
+/* .facultyInfoCards{
     display: flex;
     flex-wrap: wrap;
     padding: 10px 10px;
-}
+} */
 
 
 
@@ -93,10 +93,10 @@
 /*********************************************faculty card************************************************/
 .facultyCardWrapper{
     /* background-color: red; */
-    margin: 15px 10px;
+    margin: 15px auto;
     padding: 10px 10px;
     border-radius: 60px;
-    width: 48%;
+    width: 85%;
     cursor: pointer;
     position: relative;
 }

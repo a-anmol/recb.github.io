@@ -1,0 +1,123 @@
+/*******************************************department heading*********************************************/
+.departmentHeading {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.departmentHeading h1 {
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    font-size: 35px;
+    text-shadow: 0 2px 10px rgb(0, 0, 0, 0.4);
+}
+
+.departmentUnderline {
+    height: 2px;
+    background-color: black;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px black;
+}
+
+
+
+
+
+
+
+
+
+
+/**********************************************vision of department********************************************/
+.visionWrapper {
+    background-color: aliceblue;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.visionInner {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.visionHeading {
+    color: rgb(0, 210, 110);
+    margin-top: 20px;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(0, 210, 110);
+    border-radius: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+}
+
+.visionText {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.aboutOpen {
+    left: 10px;
+    top: -25px;
+    width: 80px;
+}
+
+.aboutClose {
+    right: 10px;
+    bottom: -25px;
+    width: 80px;
+}
+
+
+
+
+
+
+/******************************************department mission********************************************/
+.missionWrapper {
+    background-color: bisque;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.missionInner {
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.missionHeading {
+    color: rgb(0, 210, 110);
+    margin-top: 20px;
+    font-size: 25px;
+    border-bottom: 2px solid rgb(0, 210, 110);
+    border-radius: 2px;
+    padding-bottom: 2px;
+    border-radius: 4px;
+}
+
+.missionText {
+    font-size: 20px;
+    margin: 15px 0;
+    position: relative;
+    left: 24px;
+}
+
+.missionText::before{
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(0, 210, 110);
+    left: -22px;
+    top: 4px;
+}
