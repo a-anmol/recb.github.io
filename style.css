@@ -10,11 +10,11 @@
     --baseYellow: rgb(255, 255, 47);
 }
 
-body{
+body {
     position: relative;
 }
 
-.hide{
+.hide {
     display: none;
     opacity: 0;
     overflow: hidden;
@@ -194,7 +194,7 @@ body{
     margin-right: 18px;
 }
 
-.searchBox:hover svg{
+.searchBox:hover svg {
     opacity: 0.8;
 }
 
@@ -248,18 +248,19 @@ body{
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.searchBox:hover section{
+.searchBox:hover section {
     opacity: 1;
     z-index: 6000;
     top: 40px;
 }
-.searchBox:hover section::before{
+
+.searchBox:hover section::before {
     z-index: -1000;
     opacity: 1;
     top: -13px;
 }
 
-.search{
+.search {
     position: relative;
     width: 210px;
     height: 40px;
@@ -269,7 +270,7 @@ body{
     overflow: hidden;
 }
 
-.search .searchIcon{
+.search .searchIcon {
     position: absolute;
     top: 0;
     left: 0;
@@ -283,27 +284,27 @@ body{
     z-index: 1000;
 }
 
-.search .searchIcon::before{
+.search .searchIcon::before {
     content: '';
     position: absolute;
     width: 12px;
     height: 12px;
     border: 2px solid yellowgreen;
     border-radius: 50%;
-    transform: translate(-1px,-2px);
+    transform: translate(-1px, -2px);
 }
 
-.search .searchIcon::after{
+.search .searchIcon::after {
     content: '';
     position: absolute;
     width: 3px;
     height: 8px;
-    background-color:  yellowgreen;
+    background-color: yellowgreen;
     border-radius: 10%;
-    transform: translate(6px,5px) rotate(-45deg);
+    transform: translate(6px, 5px) rotate(-45deg);
 }
 
-.search .searchInput{
+.search .searchInput {
     position: relative;
     height: 40px;
     width: 170px;
@@ -313,7 +314,7 @@ body{
     align-items: center;
 }
 
-.search .searchInput input{
+.search .searchInput input {
     position: absolute;
     top: 0%;
     width: 100%;
@@ -1598,6 +1599,10 @@ body{
     color: brown;
 }
 
+.footerBarInfoItem a {
+    display: flex;
+}
+
 .footerBarInfoItem::before {
     content: '';
     position: absolute;
@@ -1766,9 +1771,9 @@ body{
 
 
 /********************************************** chat box*******************************************/
-.chatBoxWrapper{
+.chatBoxWrapper {
     position: fixed;
-    height:50px;
+    height: 50px;
     width: 50px;
     display: flex;
     justify-content: center;
@@ -1783,7 +1788,7 @@ body{
     cursor: pointer;
 }
 
-.chatBoxWrapper::after{
+.chatBoxWrapper::after {
     content: '';
     position: absolute;
     height: 10px;
@@ -1792,16 +1797,16 @@ body{
     background-color: yellow;
     bottom: 0;
     right: 0;
-    transform: translate(-50%,50%) rotate(45deg);
+    transform: translate(-50%, 50%) rotate(45deg);
 }
 
-.chatBoxWrapper svg{
+.chatBoxWrapper svg {
     width: 20px;
     height: 20px;
     color: var(--baseColor);
 }
 
-.chatBox{
+.chatBox {
     opacity: 0;
     content: '';
     position: absolute;
@@ -1815,7 +1820,7 @@ body{
     transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.chatBoxWrapper:hover .chatBox{
+.chatBoxWrapper:hover .chatBox {
     height: 60vh;
     opacity: 1;
 }

@@ -1,0 +1,104 @@
+/**********************************************heading******************************************************/
+
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.heading h1{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    font-size: 45px;
+    text-shadow: 0 2px 10px rgb(0,0,0,0.4);
+}
+
+.lineBar{
+    height: 2px;
+    background-color: black;
+    width: 52%;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px black;
+}
+
+/* ******************************************* faculty ************************************************** */
+.facultyCardWrapper{
+    cursor: auto;
+}
+
+.facultyCardWrapper:hover .facultyCard {
+    opacity: 1;
+}
+
+.facultyImage {
+    border-radius: 60px;
+    position: relative;
+    left: -25px;
+}
+
+.facultyCardDir{
+    box-shadow: 0 0 10px black;
+    padding: 10px 30px;
+    border-radius: 60px;
+}
+
+.facultyCard {
+    justify-content: space-between;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.facultyMessage{
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    line-height: 1.4;
+}
+
+.imageSection {
+    position: relative;
+    left: 2.2%;
+    top: 16px;
+}
+
+.imageSection img{
+    box-shadow: 0 0 20px black;
+}
+
+.quoteBefore::before{
+    opacity: 0;
+}
+
+.quoteBefore{
+    position: relative;
+    margin-top: 18px;
+    /* color: rgb(148, 22, 0); */
+    text-align: center;
+}
+
+.quote{
+    border-bottom: none;
+    color: rgb(148, 22, 0);
+    text-align: center;
+    word-spacing: normal;
+}
+
+.itemHeading.quote{
+    position: relative;
+    top: 30px;
+}
+
+.cardSection {
+    width: 76%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mail{
+    color: rgb(0, 210, 110);
+}
+
+.mail:hover{
+    color: rgb(148, 22, 0);
+}

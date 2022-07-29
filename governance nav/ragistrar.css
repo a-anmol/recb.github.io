@@ -1,0 +1,41 @@
+/* ******************************************** faculty ****************************************** */
+.facultyCard {
+    display: block;
+}
+
+.imageSection {
+    left: 0;
+    margin: 10px;
+}
+
+.facultyImage {
+    width: 100%;
+    height: max-content;
+    border-radius: 60px;
+    box-shadow: 0 0 4px rgb(0, 210, 110);
+}
+
+.cardSection {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+.facultyName{
+    padding: 0 10px;
+    padding-bottom: 2px;
+}
+
+.facutlyInfoItem::before{
+    opacity: 0;
+    visibility: 0;
+}
+
+.facutlyInfoItem:last-child{
+    margin-bottom: 20px;
+}
+
+.facultyCardWrapper:hover .facultyCard {
+    opacity: 1;
+    cursor: auto;
+}

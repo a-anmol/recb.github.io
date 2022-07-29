@@ -1,0 +1,35 @@
+/* ************************************* mission **************************************** */
+.missionText{
+    margin-top: -10px;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr max-content 1fr;
+    background-color: rgb(204, 255, 230);
+    cursor: auto;
+}
+
+.missionText p{
+    text-align: center;
+}
+
+.missionText:nth-of-type(odd){
+    border: 2px solid rgb(145, 165, 255);
+    background-color: rgb(224, 229, 255);
+}
+
+.missionText:nth-of-type(odd) .bar{
+    background-color:rgb(145, 165, 255);
+}
+
+.missionText:hover::before{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+
+/* *********************************** bar *********************************** */
+.bar{
+    height: 100%;
+    width: 2px;
+    background-color: rgb(0, 210, 110);
+}
