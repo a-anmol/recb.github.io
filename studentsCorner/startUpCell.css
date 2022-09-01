@@ -1,0 +1,33 @@
+/* ************************************* vision ******************************* */
+.visionText p{
+    margin-bottom: 16px;
+}
+
+.visionText p a{
+    color: rgb(0, 210, 110)
+}
+
+.visionText p a:hover{
+    color: brown;
+}
+
+
+/* ******************************** mission ******************************* */
+.missionText{
+    grid-template-columns: 1fr max-content 1.2fr max-content 1.4fr max-content .7fr max-content 1fr;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+/* .bar{
+    color: rgb(0, 210, 110);
+} */
+/* 
+.missionText:nth-of-type(odd) p:nth-of-type(4n+1){
+    color: rgb(87, 153, 0);
+}
+
+.missionText:nth-of-type(odd) p:nth-of-type(4n-1){
+    color: rgb(25, 47, 156);
+} */

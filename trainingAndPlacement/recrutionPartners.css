@@ -1,0 +1,13 @@
+/* **************************** links ************************************* */
+.gem{
+    width: 20px;
+    height: 20px;
+    color: linear-gradient(to right, yellow 40%,red 50%);
+    position: relative;
+    top: 3px;
+}
+
+/* ******************************** mission ***************************** */
+.missionText::before{
+    content: 'Visit';
+}
