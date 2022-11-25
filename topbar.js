@@ -45,8 +45,14 @@ if(selectedTheme){
 
 icon.addEventListener("click",()=>{
       document.body.classList.toggle(darkTheme);
-      icon.children[1].children[1].children[0].getAttribute("href")==="#moon"
+      icon.children[1].children[1].children[0].getAttribute("href")==="#moon"?
+            icon.children[1].children[1].children[0].setAttribute("href",'#sun'):
+            icon.children[1].children[1].children[0].setAttribute("href",'#moon');
       localStorage.setItem("selectedTheme",getCurrentTheme())
+      themeText.textContent === 'Dark' ?
+            themeText.textContent = 'Light' :
+            themeText.textContent = 'Dark'
+
 })
 
 
