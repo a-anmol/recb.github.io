@@ -6,7 +6,7 @@
 	.st0{fill:#99C8CD;}
 	.st1{fill:#EDDEE8;}
 	.st2{fill:#E7D2E0;}
-	.st3{fill:#B0BEDD;}
+	.st3{fill:#ff9898;}
 	.st4{fill:#DABCD1;}
 	.st5{fill:none;stroke:#852065;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st6{fill:none;stroke:#A4588C;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
@@ -14,7 +14,7 @@
 	.st8{fill:#852065;}
 	.st9{fill:#A4588C;}
 	.st10{fill:none;stroke:#3A5DAB;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st11{fill:#3A5DAB;}
+	.st11{fill:#ff5050;}
 	.st12{fill:none;stroke:#007482;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st13{fill:#99C8CD;stroke:#007482;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st14{fill:#007482;}

@@ -1,3 +1,5 @@
+let baseColor = "rgb(255, 60, 60)"
+
 function removeNotice() {
       document.getElementById("topBar").remove();
 }
@@ -64,3 +66,65 @@ closePrompt.addEventListener("click",()=>{
       blurArea.remove();
       promptMessage.remove();
 })
+
+
+
+let typed= new Typed('.writing',{
+      strings:[ 'Rajkiya Engineering College, Bijnor' , 'राजकीय इंजीनियरिंग कॉलेज, बिजनौर'],
+      typeSpeed: 70,
+      backSpeed: 40,
+      smartBackspace: true,
+      backDelay: 70,
+      loop: true,
+      loopCount: Infinity,
+      showCursor: true,
+      cursorChar: '|',
+      autoInsertCss: true,
+})
+
+
+const nav = document.querySelector(".navBar");
+const topNav = document.querySelector(".topNav");
+let lstscrollY =  window.scrollY;
+
+window.addEventListener("scroll", ()=>{
+      if(lstscrollY<window.scrollY){
+            console.log("hi")
+      }
+      else{
+            console.log("by")
+      }
+
+      lstscrollY=window.scrollY;
+      if(lstscrollY>=topNav.scrollHeight){
+            nav.style.background= baseColor;
+            nav.children[0].children[0].children[0].children[0].classList.add("navLogoScroll");
+      }
+      else{
+            nav.style.background= "none";
+            nav.style.transition="all 0.08s"
+            nav.children[0].children[0].children[0].children[0].classList.remove("navLogoScroll");
+      }
+})
+console.log(nav.children[0].children[0].children[0].children[0])
+
+
+	$.fn.isInViewport = function() {
+	  var elementTop = $(this).offset().top;
+	  var elementBottom = elementTop + $(this).outerHeight();
+
+	  var viewportTop = $(window).scrollTop();
+	  var viewportBottom = viewportTop + $(window).height();
+
+	  return elementBottom > viewportTop && elementTop < viewportBottom;
+	};
+
+	$(window).on('resize scroll', function() {
+		$('.bw2ckk').each(function() {
+			if ($(this).isInViewport()) {
+				$('.bottom-img').addClass('color');
+			} else {
+				$('.bottom-img').removeClass('color');
+			}
+		});
+	});
