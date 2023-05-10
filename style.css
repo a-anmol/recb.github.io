@@ -1737,7 +1737,7 @@ body.darkTheme::-webkit-scrollbar-thumb:hover{
     /* display: flex; */
     /* gap: 20px; */
     overflow-x: auto;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 
 .noticeScroll {
